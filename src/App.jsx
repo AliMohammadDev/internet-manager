@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar"
 import Packages from "./components/Packages"
 import Savings from "./components/Savings"
 import WhatsAppButton from "./components/WhatsAppButton"
+import WhyUs from "./components/WhyUs"
 import Hero from "./Sliders/Hero"
 
 
@@ -16,6 +17,8 @@ function App() {
 
           <Hero />
 
+
+          <WhyUs />
 
           <Packages />
           <Savings />

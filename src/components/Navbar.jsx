@@ -8,7 +8,7 @@ const Navbar = () => {
             <div className="max-w-6xl mx-auto px-4">
                 <div className="flex justify-between font-[Expo-bold] items-center h-16">
                     <div className="flex items-center">
-                        <span className="font-bold text-xl text-blue-600">
+                        <span className="font-[Asteroid] font-bold text-xl text-blue-600">
                             <a href="/">NetFlow</a>
                         </span>
                     </div>
