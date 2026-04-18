@@ -18,6 +18,7 @@ const Navbar = () => {
                         <a href="/" className="text-gray-700 hover:text-blue-600 transition">الرئيسية</a>
                         <a href="#packages" className="text-gray-700 hover:text-blue-600 transition">الباقات</a>
                         <a href="#savings" className="text-gray-700 hover:text-blue-600 transition">توفير</a>
+                        <a href="contact" className="text-gray-700 hover:text-blue-600 transition">اتصل بنا</a>
                     </div>
 
                     {/* Mobile Button */}
@@ -34,8 +35,9 @@ const Navbar = () => {
 
             {/* Mobile Menu */}
             <div className={`${isOpen ? 'block' : 'hidden'} md:hidden font-[Expo-bold] bg-white border-t`}>
-                <a href="#" className="block py-2 px-4 text-sm hover:bg-blue-500 hover:text-white">الرئيسية</a>
+                <a href="/" className="block py-2 px-4 text-sm hover:bg-blue-500 hover:text-white">الرئيسية</a>
                 <a href="#packages" className="block py-2 px-4 text-sm hover:bg-blue-500 hover:text-white">الباقات</a>
+                <a href="/contact" className="block py-2 px-4 text-sm hover:bg-blue-500 hover:text-white">اتصل بنا</a>
             </div>
         </nav>
     );
