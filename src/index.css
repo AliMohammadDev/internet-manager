@@ -1,1 +1,38 @@
 @import "tailwindcss";
+
+/* CUSTOM FONTS */
+
+@font-face {
+    font-family: Expo-arabic;
+    src: url('/public/fonts/Expo-Arabic-Book.ttf');
+}
+
+@font-face {
+    font-family: Expo-bold;
+    src: url('/public/fonts/Expo-Arabic-Bold.ttf');
+}
+
+@font-face {
+    font-family: Expo-light;
+    src: url('/public/fonts/Expo-Arabic-light.ttf');
+}
+
+@font-face {
+    font-family: Expo-book;
+    src: url('/public/fonts/Expo-Arabic-Book.ttf');
+}
+
+@font-face {
+    font-family: Expo-medium;
+    src: url('/public/fonts/Expo-Arabic-Medium.ttf');
+}
+
+@font-face {
+    font-family: Asteroid;
+    src: url('/public/fonts/Asteroid.ttf');
+}
+
+@font-face {
+    font-family: Qanduchia;
+    src: url('/public/fonts/Qanduchia.ttf');
+}

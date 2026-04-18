@@ -1,12 +1,29 @@
+import Footer from "./components/Footer"
+import Navbar from "./components/Navbar"
+import Packages from "./components/Packages"
+import Savings from "./components/Savings"
+import WhatsAppButton from "./components/WhatsAppButton"
+import Hero from "./Sliders/Hero"
 
 
 function App() {
 
   return (
     <>
-      <h1 class="text-3xl font-bold underline">
-        Hello world!
-      </h1>
+      <div className="font-sans antialiased text-gray-900" dir="rtl">
+        <Navbar />
+        <main>
+
+          <Hero />
+
+
+          <Packages />
+          <Savings />
+        </main>
+        <Footer />
+
+        <WhatsAppButton />
+      </div>
     </>
   )
 }
